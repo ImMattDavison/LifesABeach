@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(240,152,25,.6) 15%, rgba(251,126,253,.6)), url('/image/beachbg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #fff;
+}
+.description{
+    color: #fff;
+    font-style: italic;
+}

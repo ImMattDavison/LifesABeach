@@ -1,0 +1,12 @@
+{
+    "pronouns":[
+        "he/him" : {
+            "short" : "he/him",
+            "long" : "he/him/his"
+        },
+        "he/they" : {
+            "short":"he/they",
+            "long":"he/him/his/they/them/theirs"
+        }
+    ]
+}

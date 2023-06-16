@@ -1,12 +1,130 @@
 {
     "pronouns":[
-        "he/him" : {
-            "short" : "he/him",
-            "long" : "he/him/his"
+        {
+            "short":"he/him",
+            "long": [ "he","him","his","himself"],
+            "type":"binary",
+            "examples":[
+                "He went to the shop to pick up his food"
+            ],
+            "flag":"he-him.webp"
         },
-        "he/they" : {
+        {
+            "short":"she/her",
+            "long":["she","her","hers","herself"],
+            "type":"binary",
+            "examples":[
+                "She went to the shop to pick up her food"
+            ],
+            "flag":"she-her.webp"
+        },
+        {
+            "short":"they/them",
+            "long":["they","them","their","theirs","themself"],
+            "type":"normative-ish",
+            "examples":[
+                "They went to the shop to pick up their food"
+            ],
+            "flag":"they-them.webp"
+        },
+        {
+            "short":"it/its",
+            "long":["it","its","itself"],
+            "type":"normative-ish",
+            "examples":[
+                "It went to the shop to pick up its food"
+            ],
+            "flag":"it-its.webp"
+        },
+        {
+            "short":"one/one's",
+            "long":["one","one's","oneself"],
+            "type":"normative-ish",
+            "examples":[
+                "One went to the shop to pick up one's food"
+            ],
+            "flag":"one-ones.webp"
+        },
+        {
+            "short":"she/he",
+            "long":["she","her","hers","herself","he","him","his","himself"],
+            "type":"interchangeable",
+            "examples":[
+                "She went to the shop to pick up her food",
+                "He went to the shop to pick up his food"
+            ]
+        },
+        {
             "short":"he/they",
-            "long":"he/him/his/they/them/theirs"
+            "long":["he","him","his","they","them","their","theirs","themself"],
+            "type":"interchangeable",
+            "examples":[
+                "He went to the shop to pick up his food",
+                "They went to the shop to pick up their food"
+            ]
+        },
+        {
+            "short":"she/they",
+            "long":["she","her","hers","herself","they","them","their","theirs","themself"],
+            "type":"interchangeable",
+            "examples":[
+                "She went to the shop to pick up her food",
+                "They went to the shop to pick up their food"
+            ]
+        },
+        {
+            "short":"ae/aer",
+            "long":["ae","aer","aers","aerself"],
+            "type":"neopronoun",
+            "examples":[
+                "Ae went to the shop to pick up aer food"
+            ],
+            "flag":"ae-aer.webp"
+        },
+        {
+            "short":"ey/em",
+            "long":["ey","em","eir","eirs","eirself"],
+            "type":"neopronoun",
+            "examples":[
+                "Ey went to the shop to pick up eir food"
+            ],
+            "flag":"ey-em.webp"
+        },
+        {
+            "short":"fae/faer",
+            "long":["fae","faer","faers","faerself"],
+            "type":"neopronoun",
+            "examples":[
+                "Fae went to the shop to pick up Faer food"
+            ],
+            "flag":"fae-faer.webp"
+        },
+        {
+            "short":"xe/xem",
+            "long":["xe","xem","xyr","xyrs","xemself"],
+            "type":"neopronoun",
+            "examples":[
+                "Xe went to the shop to pick up xyr food"
+            ],
+            "flag":"xe-xem.webp"
+        },
+        {
+            "short":"ze/hir",
+            "long":["ze","hir","hirs","hirself"],
+            "type":"neopronoun",
+            "examples":[
+                "Ze went to the shop to pick up hir food"
+            ],
+            "flag":"ze-hir.webp"
+        },
+        {
+            "short":"ze/zir",
+            "long":["ze","zir","zirs","zirself"],
+            "type":"neopronoun",
+            "examples":[
+                "She went to the shop to pick up her food"
+            ],
+            "flag":"ze-zir.webp"
         }
     ]
 }

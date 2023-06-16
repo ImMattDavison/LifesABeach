@@ -4,4 +4,13 @@ html, body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
+
+:root{
+    --md-primary:rgb(240,152,25);
+    --md-secondary:rgb(251,126,253);
+
+    --ad-skyblue:#6199e8;
+    --ad-dullsand:#b3b6a1;
+    --ad-navalnavy:#161f30;
+    --ad-hivizgreen:#e4fbb6;
 }

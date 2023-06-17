@@ -26,7 +26,7 @@ export default function Pronoun({ sexuality, params }) {
                             </code>
                         </Col>
                         <Col xs={12} sm={12} md={6} lg={6} className={styles.col}>
-                            <img src={sexuality.flag} className={styles.image} alt={sexuality.sexuality + ' flag'} width='100%' />
+                            <img src={sexuality.flags} className={styles.image} alt={sexuality.sexuality + ' flag'} width='100%' />
                         </Col>
                     </Row>
                     <Row>

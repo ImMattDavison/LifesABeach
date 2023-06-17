@@ -5,6 +5,7 @@ import data from '/public/json/pronouns.json'
 export default function Home() {
     return (
         <>
+            <a href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></a>
             <main className={styles.main}>
                 <Container className={styles.container}>
                     <h1 className={styles.title}>pronoun directory</h1>

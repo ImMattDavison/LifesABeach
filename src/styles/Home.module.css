@@ -52,3 +52,12 @@
     justify-content: center;
     align-items: center;
 }
+.prideImage{
+    position:absolute;
+    width:100px;
+    right:10px;
+    bottom:10px;
+}
+.prideImage:hover{
+    width:150px;
+}

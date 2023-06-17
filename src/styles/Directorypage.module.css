@@ -42,7 +42,7 @@
 .sampleOutputh2{
     font-size: 2.25rem;
     font-weight: 700;
-    margin-bottom: 1.2rem;
+    margin-block: 1.2rem;
 }
 
 .pronounEndpoint{

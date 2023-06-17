@@ -1,0 +1,46 @@
+{
+    "sexualities":[
+        {
+            "name":"Gay",
+            "aka":"Homosexual",
+            "definition":"Sexually or romantically attracted exclusively to people of one's own sex or gender (used especially of a man)",
+            "flag":""
+        },
+        {
+            "name":"Lesbian",
+            "aka":"Homosexual",
+            "definition":"Sexually or romantically attracted exclusively to people of one's own sex or gender (used especially of a woman)",
+            "flag":""
+        },
+        {
+            "name":"Bisexual",
+            "aka":"Bi",
+            "definition":"Sexually or romantically attracted to multiple genders with gender preferences (someone who identifies as bisexual may be attracted to men and women but not non-binary people).",
+            "flag":""
+        },
+        {
+            "name":"Pansexual",
+            "aka":"Pan",
+            "definition":"Sexually or romantically attracted to all genders without any specific preference.",
+            "flag":""
+        },
+        {
+            "name":"Asexual",
+            "aka":"Ace",
+            "definition":"Experiencing no sexual feelings or desires; not feeling sexual attraction to anyone.",
+            "flag":""
+        },
+        {
+            "name":"Abrosexual",
+            "aka":"Abro",
+            "definition":"Experiencing fluidity of sexuality (someone who is abrosexual may be attracted to men for a period of time and men another).",
+            "flag":""
+        },
+        {
+            "name":"Omnisexual",
+            "aka":"Omni",
+            "definition":"Involving or characterized by diverse forms of sexuality; attracted to more than one gender.",
+            "flag":""
+        }
+    ]
+}

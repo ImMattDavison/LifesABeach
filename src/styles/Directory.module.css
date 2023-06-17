@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(240,152,25,.6) 15%, rgba(251,126,253,.6)), url('/image/beachbg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    margin-block: .2rem;
+    color: #fff;
+    text-align: center;
+}
+.description{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    text-align:center;
+    text-decoration: none;
+}
+.container{
+    background-color: rgba(9, 9, 16, .75);
+    padding: 2rem;
+    border-radius: 5rem;
+}
+.pronoun{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-block: .5rem;
+}

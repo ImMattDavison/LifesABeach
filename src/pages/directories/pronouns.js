@@ -1,9 +1,6 @@
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Col, Row } from 'react-bootstrap'
 import data from '/public/json/pronouns.json'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
     return (

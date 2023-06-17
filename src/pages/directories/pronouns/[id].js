@@ -19,8 +19,8 @@ export default function Pronoun({ pronoun, params }) {
                         <Col xs={12} sm={12} md={6} lg={6} className={styles.col}>
                             <h1 className={styles.pronounInfoTitle}>{pronoun.pronouns}</h1>
                             <p className={styles.pronounInfo}>type: {pronoun.types}</p>
-                            <p className={styles.pronounInfo}>Complete combination: {pronoun.combinations.longCombination}</p>
-                            <p className={styles.pronounInfo}>Example sentence: {pronoun.sampleSentences}</p>
+                            <p className={styles.pronounInfo}>complete combination: {pronoun.combinations.longCombination}</p>
+                            <p className={styles.pronounInfo}>example sentence: {pronoun.sampleSentences}</p>
                             <p className={styles.pronounEndpoint}>API endpoint:</p>
                             <code className={styles.code}>
                                 https://lifesabeach.tech/api/pronouns/{pronoun.pronouns.replace('/', '-')}
@@ -32,7 +32,7 @@ export default function Pronoun({ pronoun, params }) {
                     </Row>
                     <Row>
                         <Col xs={12} sm={12} md={12} lg={12} className={styles.col}>
-                            <h2 className={styles.sampleOutputh2}>Sample output:</h2>
+                            <h2 className={styles.sampleOutputh2}>sample output:</h2>
                             <code className={styles.code}>
                             &#123;<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;status: '200 OK',<br/>

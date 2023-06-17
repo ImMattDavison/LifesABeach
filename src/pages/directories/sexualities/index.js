@@ -7,8 +7,8 @@ export default function Home() {
         <>
             <main className={styles.main}>
                 <Container className={styles.container}>
-                    <h1 className={styles.title}>Sexuality Directory</h1>
-                    <p className={styles.description}>Don't get washed away in the sea of terminology.</p>
+                    <h1 className={styles.title}>sexuality directory</h1>
+                    <p className={styles.description}>don't get washed away in the sea of terminology.</p>
 
                     <Row className={styles['description', 'pronoun']}>
                         {

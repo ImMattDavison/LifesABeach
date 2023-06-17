@@ -11,9 +11,13 @@
     align-items: center;
 }
 .title{
+    font-size: 3rem;
+    margin-block: .2rem;
     color: #fff;
 }
 .description{
+    font-size: 1.5rem;
+    text-align: center;
     color: #fff;
     font-style: italic;
     text-align:center;

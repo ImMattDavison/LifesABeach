@@ -42,7 +42,9 @@ export default function handler(req, res) {
     }
 
     // Send response with data
+    if(popularShortCombinations.length !== 0) {
     res.status(200).json({
+        "status" : "200 OK",
         "pronouns" : req.query.id.replaceAll('-', '/').toLowerCase(),
         "types" : types,
         "combinations" : {
@@ -52,4 +54,9 @@ export default function handler(req, res) {
         "sampleSentences" : sampleSentences,
         "flags" : flags
     })
+    } else {
+        res.status(404).json({
+            "error 404" : "Pronouns not found"
+        })
+    }
 }

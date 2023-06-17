@@ -24,13 +24,17 @@
     text-decoration: none;
 }
 
+.description:hover{
+    color:var(--md-primary);
+}
+
 .button{
     margin-top: 1rem;
     padding: .5rem 1rem;
     border-radius: 5px;
     border: none;
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
@@ -38,10 +42,22 @@
     text-decoration: none;
     text-align: center;
 }
+.button:hover{
+    background-color:var(--md-primary-transparent);
+}
 
 .row{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.prideImage{
+    position:absolute;
+    width:100px;
+    right:10px;
+    bottom:10px;
+}
+.prideImage:hover{
+    width:150px;
 }

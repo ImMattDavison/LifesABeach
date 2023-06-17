@@ -27,7 +27,9 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.description:hover{
+    color:var(--md-primary);
+}
 .pronounInfo{
     margin-bottom: 1rem;
     font-size: 1.2rem;
@@ -55,4 +57,13 @@
     border-radius: .75rem;
     font-size: 1.2rem;
     width: 100%;
+}
+.prideImage{
+    position:absolute;
+    width:100px;
+    right:10px;
+    bottom:10px;
+}
+.prideImage:hover{
+    width:150px;
 }

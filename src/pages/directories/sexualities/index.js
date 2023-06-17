@@ -5,10 +5,11 @@ import data from '/public/json/sexualities.json'
 export default function Home() {
     return (
         <>
+            <a href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></a>
             <main className={styles.main}>
                 <Container className={styles.container}>
-                    <h1 className={styles.title}>Sexuality Directory</h1>
-                    <p className={styles.description}>Don't get washed away in the sea of terminology.</p>
+                    <h1 className={styles.title}>sexuality directory</h1>
+                    <p className={styles.description}>don't get washed away in the sea of terminology.</p>
 
                     <Row className={styles['description', 'pronoun']}>
                         {

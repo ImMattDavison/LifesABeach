@@ -1,46 +1,46 @@
 {
     "sexualities":[
         {
-            "name":"Gay",
+            "name":"gay",
             "aka":"Homosexual",
             "definition":"Sexually or romantically attracted exclusively to people of one's own sex or gender (used especially of a man)",
-            "flag":""
+            "flag":"gay.png"
         },
         {
-            "name":"Lesbian",
+            "name":"lesbian",
             "aka":"Homosexual",
             "definition":"Sexually or romantically attracted exclusively to people of one's own sex or gender (used especially of a woman)",
-            "flag":""
+            "flag":"lesbian.webp"
         },
         {
-            "name":"Bisexual",
+            "name":"bisexual",
             "aka":"Bi",
             "definition":"Sexually or romantically attracted to multiple genders with gender preferences (someone who identifies as bisexual may be attracted to men and women but not non-binary people).",
-            "flag":""
+            "flag":"bisexual.webp"
         },
         {
-            "name":"Pansexual",
+            "name":"pansexual",
             "aka":"Pan",
             "definition":"Sexually or romantically attracted to all genders without any specific preference.",
-            "flag":""
+            "flag":"pansexual.webp"
         },
         {
-            "name":"Asexual",
+            "name":"asexual",
             "aka":"Ace",
             "definition":"Experiencing no sexual feelings or desires; not feeling sexual attraction to anyone.",
-            "flag":""
+            "flag":"asexual.webp"
         },
         {
-            "name":"Abrosexual",
+            "name":"abrosexual",
             "aka":"Abro",
             "definition":"Experiencing fluidity of sexuality (someone who is abrosexual may be attracted to men for a period of time and men another).",
-            "flag":""
+            "flag":"abrosexual.webp"
         },
         {
-            "name":"Omnisexual",
+            "name":"omnisexual",
             "aka":"Omni",
             "definition":"Involving or characterized by diverse forms of sexuality; attracted to more than one gender.",
-            "flag":""
+            "flag":"omnisexual.webp"
         }
     ]
 }

@@ -38,7 +38,7 @@ export default function Pronoun({ sexuality, params }) {
                                 &nbsp;&nbsp;&nbsp;&nbsp;sexuality: {sexuality.sexuality},<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;aka: [ '{sexuality.aka}' ],<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;definition: [ '{sexuality.definition}' ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ '{sexuality.flag}' ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ '{sexuality.flags}' ]<br/>
                             &#125;
                             </code>
                         </Col>

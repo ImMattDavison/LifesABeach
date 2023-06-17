@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
     return (
         <>
+            <a href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></a>
             <main className={styles.main}>
                 <h1 className={styles.title}>Life's a Beach</h1>
                 <p className={styles.description}>don't get washed away in the sea of terminology.</p>

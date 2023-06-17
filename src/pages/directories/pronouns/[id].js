@@ -13,6 +13,7 @@ export default function Pronoun({ pronoun, params }) {
 
     return (   
         <>
+            <a href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></a>
             <main className={styles.main}>
                 <Container className={styles.container}>
                     <Row>

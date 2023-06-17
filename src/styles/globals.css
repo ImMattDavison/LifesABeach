@@ -15,3 +15,13 @@ html, body {
     --ad-navalnavy:#161f30;
     --ad-hivizgreen:#e4fbb6;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--lab-font-montserrat)!important;
+    font-weight: 700;
+}
+
+p {
+    font-family: var(--lab-font-inter)!important;
+    font-weight: 400;
+}

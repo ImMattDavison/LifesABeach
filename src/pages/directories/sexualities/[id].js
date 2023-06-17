@@ -18,8 +18,8 @@ export default function Pronoun({ sexuality, params }) {
                     <Row>
                         <Col xs={12} sm={12} md={6} lg={6} className={styles.col}>
                             <h1 className={styles.pronounInfoTitle}>{sexuality.sexuality}</h1>
-                            <p className={styles.pronounInfo}>Also known as: {sexuality.aka}</p>
-                            <p className={styles.pronounInfo}>Definition: {sexuality.definition}</p>
+                            <p className={styles.pronounInfo}>also known as: {sexuality.aka}</p>
+                            <p className={styles.pronounInfo}>definition: {sexuality.definition}</p>
                             <p className={styles.pronounEndpoint}>API endpoint:</p>
                             <code className={styles.code}>
                                 https://lifesabeach.tech/api/sexualities/{sexuality.sexuality}
@@ -31,7 +31,7 @@ export default function Pronoun({ sexuality, params }) {
                     </Row>
                     <Row>
                         <Col xs={12} sm={12} md={12} lg={12} className={styles.col}>
-                            <h2 className={styles.sampleOutputh2}>Sample output:</h2>
+                            <h2 className={styles.sampleOutputh2}>sample output:</h2>
                             <code className={styles.code}>
                             &#123;<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;status: '200 OK',<br/>

@@ -11,11 +11,11 @@ export default function Home() {
         <>
             <main className={styles.main}>
                 <h1 className={styles.title}>Life's a Beach</h1>
-                <p className={styles.description}>Don't get washed away in the sea of terminology.</p>
-                <p>The API and Info site to save you!</p>
+                <p className={styles.description}>don't get washed away in the sea of terminology.</p>
+                <p>the API and info site to save you!</p>
                 <Row className={styles.row}>
-                    <a className={styles.button} href='/directories/pronouns'>Pronouns</a>
-                    <a className={styles.button} href='/directories/sexualities'>Sexualities</a>    
+                    <a className={styles.button} href='/directories/pronouns'>pronouns</a>
+                    <a className={styles.button} href='/directories/sexualities'>sexualities</a>    
                 </Row>
             </main>
         </>

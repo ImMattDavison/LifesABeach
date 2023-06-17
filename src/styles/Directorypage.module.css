@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(240,152,25,.6) 15%, rgba(251,126,253,.6)), url('/image/beachbg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgba(9, 9, 16, .75);
+    padding: 2rem;
+    border-radius: 5rem;
+    padding-block: 4rem;
+}
+
+.image{
+    border-radius: 5rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pronounInfo{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.pronounInfoTitle{
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.sampleOutputh2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.pronounEndpoint{
+    font-size: 1.2rem;
+}
+
+.code{
+    background-color: rgba(9, 9, 16, .75);
+    padding: .75rem;
+    border-radius: .75rem;
+    font-size: 1.2rem;
+    width: 100%;
+}

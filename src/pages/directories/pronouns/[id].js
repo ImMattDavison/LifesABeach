@@ -43,7 +43,7 @@ export default function Pronoun({ pronoun, params }) {
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longCombination: [ 'he/him/his/himself' ]<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&#125;,<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;sampleSentences: [ [ 'He went to the shop to pick up his food' ] ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;flags: [ 'http://localhost:3000/image/pronouns/he-him.webp' ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;flags: [ 'http://lifesabeach.tech/image/pronouns/he-him.webp' ]<br/>
                             &#125;
                             </code>
                         </Col>

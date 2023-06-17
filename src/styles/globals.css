@@ -10,6 +10,7 @@ html, body {
 
 :root{
     --md-primary:rgb(240,152,25);
+    --md-primary-transparent:rgba(240,152,25,0.5);
     --md-secondary:rgb(251,126,253);
 
     --ad-skyblue:#6199e8;

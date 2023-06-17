@@ -24,6 +24,10 @@
     text-decoration: none;
 }
 
+.description:hover{
+    color:var(--md-primary);
+}
+
 .button{
     margin-top: 1rem;
     padding: .5rem 1rem;
@@ -37,6 +41,9 @@
     transition: all .3s ease-in-out;
     text-decoration: none;
     text-align: center;
+}
+.button:hover{
+    background-color:var(--md-primary-transparent);
 }
 
 .row{

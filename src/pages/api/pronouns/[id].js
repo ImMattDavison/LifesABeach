@@ -8,6 +8,7 @@ export default function handler(req, res) {
     // console.log data from json file to visualise data
     // console.log(data)
 
+    // Declare variables as empty arrays to store data
     const popularShortCombinations = []
     const popularLongCombinations = []
     const sampleSentences = []

@@ -13,7 +13,7 @@ export default function Home() {
                 <h1 className={styles.title}>Life's a Beach</h1>
                 <p className={styles.description}>Don't get washed away in the sea of terminology.</p>
                 <p>The API and Info site to save you!</p>
-                <Row>
+                <Row className={styles.row}>
                     <a className={styles.button} href='/directories/pronouns'>Pronouns</a>
                     <a className={styles.button} href='/directories/sexualities'>Sexualities</a>    
                 </Row>

@@ -25,6 +25,11 @@ export default function App({ Component, pageProps }) {
                 }
             `}
             </style>
+            <Head>
+                <title>Life's a Beach</title>
+                <meta name="description" content="Don't get washed away in the sea of terminology." />
+                <link rel="icon" href="/image/pridehaj.png" />
+            </Head>
             <Component {...pageProps} />
         </>
     )

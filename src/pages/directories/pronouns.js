@@ -14,9 +14,9 @@ export default function Home() {
                         data.pronouns.map(pronoun => {
                             console.log("pronoun");
                             return <Col xs={12} sm={6} md={4} lg={3}>
-                                <a href={"/api/pronouns/" + pronoun.short.join("-")} className={styles.description}>
+                                <a href={"/api/pronouns/" + pronoun.short.replace('/', '-')} className={styles.description}>
                                     {
-                                        pronoun.short.join("-")
+                                        pronoun.short.replace("/", "-")
                                     }
                                 </a>
                             </Col>

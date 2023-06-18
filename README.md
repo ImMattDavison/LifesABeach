@@ -21,6 +21,16 @@ export async function getStaticProps({ params }) {
 }
 ```
 
+## Endpoints
+We created two API endpoints for this project: pronouns and sexualities.
+### Pronouns
+Endpoint: /api/pronouns/{pronoun}
+Example: [/api/pronouns/he-him](https://lifesadamsbeach.netlify.app/api/pronouns/he-him)
+
+### Sexualities
+Endpoint: /api/sexualities/{sexuality}
+Example: [/api/sexualities/bisexual](https://lifesadamsbeach.netlify.app/api/sexualities/bisexual)
+
 ![Douglas Beach](https://user-images.githubusercontent.com/66436400/246520763-936f6ccb-135d-4ded-95a5-487f2c7c816e.jpeg)
 
 ## Why we built Life's a Beach! 🌊

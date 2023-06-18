@@ -1,5 +1,6 @@
 import axios from 'axios'
 import styles from '@/styles/Directorypage.module.css'
+import Link from 'next/link'
 import { Col, Row, Container } from 'react-bootstrap'
 
 export const getStaticPaths = async () => {
@@ -13,7 +14,7 @@ export default function Pronoun({ pronoun, params }) {
 
     return (   
         <>
-            <a href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></a>
+            <Link href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></Link>
             <main className={styles.main}>
                 <Container className={styles.container}>
                     <Row>
@@ -36,15 +37,15 @@ export default function Pronoun({ pronoun, params }) {
                             <h2 className={styles.sampleOutputh2}>sample output:</h2>
                             <code className={styles.code}>
                             &#123;<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;status: '200 OK',<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;pronouns: 'he/him',<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;types: [ 'binary' ],<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;status: &apos;200 OK&apos;,<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;pronouns: &apos;he/him&apos;,<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;types: [ &apos;binary&apos; ],<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;combinations: &#123;<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shortCombination: [ 'he/him' ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longCombination: [ 'he/him/his/himself' ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shortCombination: [ &apos;he/him&apos; ],<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longCombination: [ &apos;he/him/his/himself&apos; ]<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&#125;,<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;sampleSentences: [ [ 'He went to the shop to pick up his food' ] ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;flags: [ 'http://lifesabeach.tech/image/pronouns/he-him.webp' ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;sampleSentences: [ [ &apos;He went to the shop to pick up his food&apos; ] ],<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;flags: [ &apos;http://lifesabeach.tech/image/pronouns/he-him.webp&apos; ]<br/>
                             &#125;
                             </code>
                         </Col>

@@ -29,7 +29,7 @@ export default function Pronoun({ pronoun, params }) {
                             </code>
                         </Col>
                         <Col xs={12} sm={12} md={6} lg={6} className={styles.col}>
-                            <img src={pronoun.flags} className={styles.image} alt={pronoun.pronouns + 'flag'} width='100%' />
+                            <img src={pronoun.flag} className={styles.image} alt={pronoun.pronouns + 'flag'} width='100%' />
                         </Col>
                     </Row>
                     <Row>
@@ -45,7 +45,7 @@ export default function Pronoun({ pronoun, params }) {
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longCombination: [ &apos;he/him/his/himself&apos; ]<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&#125;,<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;sampleSentences: [ [ &apos;He went to the shop to pick up his food&apos; ] ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;flags: [ &apos;http://lifesabeach.tech/image/pronouns/he-him.webp&apos; ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ &apos;http://lifesabeach.tech/image/pronouns/he-him.webp&apos; ]<br/>
                             &#125;
                             </code>
                         </Col>

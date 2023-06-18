@@ -28,7 +28,7 @@ export default function Pronoun({ sexuality, params }) {
                             </code>
                         </Col>
                         <Col xs={12} sm={12} md={6} lg={6} className={styles.col}>
-                            <img src={sexuality.flags} className={styles.image} alt={sexuality.sexuality + ' flag'} width='100%' />
+                            <img src={sexuality.flag} className={styles.image} alt={sexuality.sexuality + ' flag'} width='100%' />
                         </Col>
                     </Row>
                     <Row>
@@ -40,7 +40,7 @@ export default function Pronoun({ sexuality, params }) {
                                 &nbsp;&nbsp;&nbsp;&nbsp;sexuality: {sexuality.sexuality},<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;aka: [ &apos;{sexuality.aka}&apos; ],<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;definition: [ &apos;{sexuality.definition}&apos; ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ &apos;{sexuality.flags}&apos; ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ &apos;{sexuality.flag}&apos; ]<br/>
                             &#125;
                             </code>
                         </Col>

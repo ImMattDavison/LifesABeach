@@ -25,11 +25,35 @@ export async function getStaticProps({ params }) {
 We created two API endpoints for this project: pronouns and sexualities.
 ### Pronouns
 Endpoint: /api/pronouns/{pronoun}
+
 Example: [/api/pronouns/he-him](https://lifesadamsbeach.netlify.app/api/pronouns/he-him)
+```
+{
+    "status":"200 OK",
+    "pronouns":"he/him",
+    "types":["binary"],
+    "combinations":{
+        "shortCombination":["he/him"],
+        "longCombination":["he/him/his/himself"]
+    },
+    "sampleSentences":[["He went to the shop to pick up his food"]],
+    "flags":["http://lifesadamsbeach.netlify.app/image/pronouns/he-him.webp"]
+}
+```
 
 ### Sexualities
 Endpoint: /api/sexualities/{sexuality}
+
 Example: [/api/sexualities/bisexual](https://lifesadamsbeach.netlify.app/api/sexualities/bisexual)
+```
+{
+    "status":"200 OK",
+    "sexuality":"bisexual",
+    "definition":["Sexually or romantically attracted to multiple genders with gender preferences (someone who identifies as bisexual may be attracted to men and women but not non-binary people)."],
+    "aka":["Bi"],
+    "flags":["http://lifesadamsbeach.netlify.app/image/sexuality/bisexual.webp"]
+}
+```
 
 ![Douglas Beach](https://user-images.githubusercontent.com/66436400/246520763-936f6ccb-135d-4ded-95a5-487f2c7c816e.jpeg)
 

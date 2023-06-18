@@ -59,7 +59,7 @@ export default function Pronoun({ pronoun, params }) {
 export async function getStaticProps({ params }) {
     console.log(params.id)
     
-    const pronoun = await axios.get('http://localhost:3000/api/pronouns/' + params.id)
+    const pronoun = await axios.get('https://lifesabeach.tech/api/pronouns/' + params.id)
 
     console.log(pronoun.data)
 

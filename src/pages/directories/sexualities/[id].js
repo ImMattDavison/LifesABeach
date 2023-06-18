@@ -1,5 +1,6 @@
 import axios from 'axios'
 import styles from '@/styles/Directorypage.module.css'
+import Link from 'next/link'
 import { Col, Row, Container } from 'react-bootstrap'
 
 export const getStaticPaths = async () => {
@@ -13,7 +14,7 @@ export default function Pronoun({ sexuality, params }) {
 
     return (   
         <>
-            <a href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></a>
+            <Link href="/"><img src="/image/pridehaj.png" alt="pride haj" className={styles.prideImage}/></Link>
             <main className={styles.main}>
                 <Container className={styles.container}>
                     <Row>
@@ -35,11 +36,11 @@ export default function Pronoun({ sexuality, params }) {
                             <h2 className={styles.sampleOutputh2}>sample output:</h2>
                             <code className={styles.code}>
                             &#123;<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;status: '200 OK',<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;status: &apos;200 OK&apos;,<br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;sexuality: {sexuality.sexuality},<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;aka: [ '{sexuality.aka}' ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;definition: [ '{sexuality.definition}' ],<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ '{sexuality.flags}' ]<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;aka: [ &apos;{sexuality.aka}&apos; ],<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;definition: [ &apos;{sexuality.definition}&apos; ],<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;flag: [ &apos;{sexuality.flags}&apos; ]<br/>
                             &#125;
                             </code>
                         </Col>

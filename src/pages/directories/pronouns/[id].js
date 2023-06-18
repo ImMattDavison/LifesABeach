@@ -29,7 +29,7 @@ export default function Pronoun({ pronoun, params }) {
                             </code>
                         </Col>
                         <Col xs={12} sm={12} md={6} lg={6} className={styles.col}>
-                            <img src={pronoun.flag} className={styles.image} alt={pronoun.pronouns + 'flag'} width='100%' />
+                            <img src={pronoun.flags} className={styles.image} alt={pronoun.pronouns + 'flag'} width='100%' />
                         </Col>
                     </Row>
                     <Row>

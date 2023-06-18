@@ -26,7 +26,7 @@ export default function handler(req, res) {
     }
 
     // Send response with data
-    // if(definition.length > 0) {
+    if(definition.length > 0) {
     res.status(200).json({
         "status" : "200 OK",
         "sexuality" : req.query.id.toLowerCase(),
@@ -34,9 +34,9 @@ export default function handler(req, res) {
         "aka" : aka,
         "flags" : flags
     })
-    // } else {
-    //     res.status(404).json({
-    //         "error 404" : "Sexuality not found"
-    //     })
-    // }
+    } else {
+        res.status(404).json({
+            "error 404" : "Sexuality not found"
+        })
+    }
 }

@@ -2,11 +2,26 @@
 
 <p align='center'><i>don't get washed away in the sea of terminology</i></p>
 
-![Douglas Beach](https://user-images.githubusercontent.com/66436400/246520763-936f6ccb-135d-4ded-95a5-487f2c7c816e.jpeg)
+![Life's a Beach thumbnail image](https://github.com/ImMattDavison/LifesABeach/assets/80921257/8302b105-8d0e-4f39-9fa4-0752c757b9dc)
 
 ## Learn and understand LGBT+ terminology. 🏳‍🌈
 
 Life's a Beach is equipped with accurate and high-quality data and information to make it the perfect tool to either use for your personal learning or use our REST API to pull our data and information to your app! 
+
+The pages within the web app include all you need to know about many sexualities and pronoun combinations, with examples on how to use pronouns in sentences, definitions for some of the most common sexual orientations. We alsop included the flags so that you can recognise them better out in the wild. Each page also shows you which API endpoint you need to use to get the same data and getting that data from there is simple! Here we did it in just a few lines of code: 
+```js
+export async function getStaticProps({ params }) {
+    const sexuality = await axios.get('http://localhost:3000/api/sexualities/' + params.id)
+    return {
+        props: {
+            sexuality: sexuality.data,
+            params: params
+        }
+    }
+}
+```
+
+![Douglas Beach](https://user-images.githubusercontent.com/66436400/246520763-936f6ccb-135d-4ded-95a5-487f2c7c816e.jpeg)
 
 ## Why we built Life's a Beach! 🌊
 
